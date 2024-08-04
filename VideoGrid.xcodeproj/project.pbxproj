@@ -16,6 +16,11 @@
 		D09C394D2C5F8E2D002A00FF /* VideoGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C394C2C5F8E2D002A00FF /* VideoGridTests.swift */; };
 		D09C39572C5F8E2D002A00FF /* VideoGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C39562C5F8E2D002A00FF /* VideoGridUITests.swift */; };
 		D09C39592C5F8E2D002A00FF /* VideoGridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C39582C5F8E2D002A00FF /* VideoGridUITestsLaunchTests.swift */; };
+		D09C39662C5F8E44002A00FF /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C39652C5F8E44002A00FF /* VideoModel.swift */; };
+		D09C396C2C5F9072002A00FF /* reels.json in Resources */ = {isa = PBXBuildFile; fileRef = D09C396B2C5F9072002A00FF /* reels.json */; };
+		D09C396E2C5F97F3002A00FF /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C396D2C5F97F3002A00FF /* DataLoader.swift */; };
+		D09C39702C5F9815002A00FF /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C396F2C5F9815002A00FF /* MyCell.swift */; };
+		D09C39722C5FB0EC002A00FF /* VideoPreloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C39712C5FB0EC002A00FF /* VideoPreloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		D09C39522C5F8E2D002A00FF /* VideoGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09C39562C5F8E2D002A00FF /* VideoGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGridUITests.swift; sourceTree = "<group>"; };
 		D09C39582C5F8E2D002A00FF /* VideoGridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D09C39652C5F8E44002A00FF /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		D09C396B2C5F9072002A00FF /* reels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reels.json; sourceTree = "<group>"; };
+		D09C396D2C5F97F3002A00FF /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		D09C396F2C5F9815002A00FF /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		D09C39712C5FB0EC002A00FF /* VideoPreloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,14 @@
 		D09C39342C5F8E2B002A00FF /* VideoGrid */ = {
 			isa = PBXGroup;
 			children = (
+				D09C396B2C5F9072002A00FF /* reels.json */,
+				D09C39652C5F8E44002A00FF /* VideoModel.swift */,
+				D09C396D2C5F97F3002A00FF /* DataLoader.swift */,
 				D09C39352C5F8E2B002A00FF /* AppDelegate.swift */,
 				D09C39372C5F8E2B002A00FF /* SceneDelegate.swift */,
 				D09C39392C5F8E2B002A00FF /* ViewController.swift */,
+				D09C396F2C5F9815002A00FF /* MyCell.swift */,
+				D09C39712C5FB0EC002A00FF /* VideoPreloader.swift */,
 				D09C393B2C5F8E2B002A00FF /* Main.storyboard */,
 				D09C393E2C5F8E2D002A00FF /* Assets.xcassets */,
 				D09C39402C5F8E2D002A00FF /* LaunchScreen.storyboard */,
@@ -231,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09C396C2C5F9072002A00FF /* reels.json in Resources */,
 				D09C393F2C5F8E2D002A00FF /* Assets.xcassets in Resources */,
 				D09C39422C5F8E2D002A00FF /* Base in Resources */,
 				D09C393D2C5F8E2B002A00FF /* Base in Resources */,
@@ -258,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09C39722C5FB0EC002A00FF /* VideoPreloader.swift in Sources */,
+				D09C396E2C5F97F3002A00FF /* DataLoader.swift in Sources */,
 				D09C393A2C5F8E2B002A00FF /* ViewController.swift in Sources */,
 				D09C39362C5F8E2B002A00FF /* AppDelegate.swift in Sources */,
+				D09C39702C5F9815002A00FF /* MyCell.swift in Sources */,
 				D09C39382C5F8E2B002A00FF /* SceneDelegate.swift in Sources */,
+				D09C39662C5F8E44002A00FF /* VideoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
